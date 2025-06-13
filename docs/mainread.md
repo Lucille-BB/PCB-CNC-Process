@@ -8,7 +8,7 @@ The PCB in this documentation is very simple. We are integrating NI Modules into
 *enter picture here*
 
 I'll go over software processes in:
-* [Altium](./docs/altium.md)
+* [Altium](./altium.md)
 * FlatCam
 * Candle
   
