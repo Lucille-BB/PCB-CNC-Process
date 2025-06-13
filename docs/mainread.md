@@ -9,10 +9,9 @@ The PCB in this documentation is very simple. We are integrating NI Modules into
 
 I'll go over software processes in:
 * [Altium](./altium.md)
-* FlatCam
-* Candle
-  
-and the machining process using the 3018 Genmitsu CNC
+* [FlatCam](./flatcam.md)
+* [Candle](./Grbl_candle.md)\
+and the machining process using the [3018 Genmitsu CNC]
 
 Moreover, I will be providing some of the errors I made in this process to avoid repetitive mistakes, design errors, and unusable boards
 
