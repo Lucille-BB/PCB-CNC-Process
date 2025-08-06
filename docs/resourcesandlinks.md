@@ -1,7 +1,7 @@
 ## Here I'm compiling many of the videos and readme's that helped me along the way
 
 ### The best readME in the universe for 3-d cnc-machining
-* [ReadME by mattwach](mattwach./cnc_pcb_tools)
+* [ReadME by mattwach](https://github.com/mattwach/cnc_pcb_tools?tab=readme-ov-file)
 
 ### Altium Basics
 * Website: [Altium Beginner Documentation](https://www.altium.com/documentation/altium-designer/tutorial-complete-design-walkthrough)
