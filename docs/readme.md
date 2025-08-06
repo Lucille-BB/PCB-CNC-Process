@@ -15,6 +15,5 @@ Moreover, I will be providing some of the errors I made in this process to avoid
 * [Altium](./altium.md)
 * [FlatCam](./flatcam.md)
 * [Candle](./Grbl_candle.md)\
-and the machining process using the [3018 Genmitsu CNC]
-
+* [Outside Resources](./resourcesandlinks.md)
 
