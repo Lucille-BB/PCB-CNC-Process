@@ -8,4 +8,7 @@
 * Video: [Net Labels](https://www.youtube.com/watch?v=HaL3MAUx6Lw)
 * Video: [Component Libraries](https://www.youtube.com/watch?v=6h-Z_NJibI8&t=234s)
 * Video: [Component Importing](https://www.youtube.com/watch?v=LmAzsCiBLCs)
-* Just pray you don't need to import 3-d component files - look up tutorials and follow some of the ones above. 
+* *Just pray you don't need to import 3-d component files - follow the ones above and there's plenty for each issue you'll have along they way*
+
+### CNC Machining and Set Up
+* 
