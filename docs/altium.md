@@ -3,7 +3,7 @@
 
 ## Schematic 
 ### OverView: 
-Creating the schematic is simple and not much needs to be taken into consideration for later steps. If this process isn't familiar to you, there are plenty of tutorials out there. Watching tutorials from Altium themselves I found was unhelpful, often other people can explain it much better. 
+Creating the schematic is simple and not much needs to be taken into consideration for later steps. If this process isn't familiar to you, there are plenty of tutorials out there. Altium has decent videos for the design process.  
 
 Outside Tutorials:
 
