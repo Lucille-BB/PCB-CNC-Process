@@ -29,5 +29,6 @@ Tips
 ## Transferring to FlatCAM
 ### OverView:
 To move from Altium to FlatCAM, you need to export your board. To do so, go to File>Fabrication Outputs> and a sidebar should pop up. You will want to create "Gerber X2 Files" for the pads and traces, and "NC Drill Files" for the component holes. Save and number these as you so choose. I've had to go back and forth from candle to Altium to change the PCB layout and sizings, so numbering is important so you know what version you're using.
+
 [<img src= "./pics/convertgrbl.png">]()
 
