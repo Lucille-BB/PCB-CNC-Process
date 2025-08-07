@@ -17,6 +17,8 @@ The PCB Doc is where layout and traces are created, which means that this has mo
 
 Tips
 * TRACK WIDTH: Go to Design>Rules...>Routing>Width and make the traces about 50 - 70 mils wide (this is pretty wide for most PCB's, if you can go a little smaller without losing the traces, go for it) - therefore the traces won't dissapear once the CNC carves into the copper.
+[<img src= "./Screenshot2.png">]()
+> above: this is where you can change the design rules. Again, these are ridiculous widths for a normal PCB but the 3018 can be finnicky with smaller traces
 * PAD SIZE: This is a lot slower and more manual. To make the process a little easier, go to PCB Filter, and type in "IsPad" and "InAnyComponent". This allows you to only click on the pads and only the pads. Make sure the pads are visibly larger than the traces. By doing so, the CNC will leave enough room for soldering and drilling the holes.
 [<img src= "./Screenshot1.png">]()
 > above: side panel showing pad size in mils
