@@ -11,4 +11,4 @@
 * *Just pray you don't need to import 3-d component files - follow the ones above and there's plenty for each issue you'll have along they way*
 
 ### CNC Machining and Set Up
-* Video: [Calibration](https://www.youtube.com/watch?v=u4Mcjz7IP10&t=16s)
+* Video: [Calibrating the CNC Machine](https://www.youtube.com/watch?v=u4Mcjz7IP10&t=16s)
