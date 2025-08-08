@@ -12,7 +12,9 @@ If you need to change your x-y axis, select all of your files, then choose Optio
 
 ## Creating the Routing and Drill files
 Go to Copper Signal 1 (or at least the file with your main traces) and click on Isolation Routing
+
 [<img src= "./pics/step1.png">]()
+
 A sidebar opens up with different options and this will create the "geometry" of your board. This is like the in between from the Altium Gerber to the CNC files
 * Tool Diameter: Choose a slightly larger diameter to essentially tell them "yes my tool is this wide
 [<img src= "./pics/oopsstep1.png">]()
