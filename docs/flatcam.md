@@ -17,7 +17,7 @@ Go to Copper Signal 1 (or at least the file with your main traces) and click on 
 
 A sidebar opens up with different options and this will create the "geometry" of your board. This is like the in between from the Altium Gerber to the CNC files
 * Tool Diameter: Mattwach has a better description for this, but choosing the V tool (even though the standard blades are V) causes problems, and you can't choose the depth the machine cuts, **at least with my version of FlatCAM.** I had so many problems, so I finally just went with C1 (i'm not sure about the others, they might be fine - I haven't played around with that setting exactly). Choose the diameter that you want the final cuts to be - I usually go with 0.3mm which gives plenty of clearance from the rest of the board. 
-* Passes: This is 
+* Passes: This is how many times the router passes through. I generally go with 3 or 4 to make sure that I get the clearance I want and all the copper removed. 
 * 
 [<img src= "./pics/oopsstep1.png">]()
 [<img src= "./pics/step2.png">]()
