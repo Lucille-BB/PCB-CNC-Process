@@ -7,6 +7,12 @@ The PCB in this documentation is very simple. We are integrating NI Modules into
 
 Moreover, I will be providing some of the errors I made in this process to avoid repetitive mistakes, design errors, and unusable boards. Expect to make multiple iterations or redo some parts. I have had to go back and forth in the design process many times to understand the machine and the software. 
 
+## Version History
+Similar to the [Severson Group](https://github.com/Severson-Group), the Altium Files for this PCB are saved in this repository as **Vermmddyyyy**
+
+## Software
+-------
+
 ## Process
 * [Altium](./altium.md)
 * [FlatCam](./flatcam.md)
