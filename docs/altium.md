@@ -6,8 +6,9 @@
 Creating the schematic is simple and not much needs to be taken into consideration for later steps. If this process isn't familiar to you, there are plenty of tutorials out there. Altium has decent videos for the design process.
 
 Tips:
-* Label nets as much as possible - I did not do this for my first PCB and it didnt make all that much as the board was so simple, but in the future, keep that in mind. 
-* Use specific components, and not the generic Altium components - the generic ones can create problems when updating to PCB Doc
+* Label nets as much as possible - I did not do this for my first PCB and while it wasn't debilitating, keep it in mind for more complicated boards.
+* Use specific components, and not the generic Altium components - the generic ones can create problems when updating to the PCB doc.
+* When finding components, its possible the one you want to use isn't in the PCB library. Refer to (./resourcesandlink)
   
 
 ## PCB Doc 
