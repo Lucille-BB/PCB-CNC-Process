@@ -1,5 +1,6 @@
 # FlatCAM
 
+
 ## Opening your files
 First, go to File>Open>Open Gerber... and find the Gerber X2 File saved from Altium. You should only need Copper Signal 1 (and 2 if you have a bottom layer), and Profile. Then to open the drill file, repeat the last step, except click on Excellon... and choose filename.TXT. 
 
@@ -10,7 +11,7 @@ If you need to change your x-y axis, select all of your files, then choose Optio
 
 [<img src= "./pics/offset.png">]()
 
-## Creating the Routing and Drill files
+## Creating the Routing files
 Go to Copper Signal 1 (or at least the file with your main traces) and click on Isolation Routing
 
 [<img src= "./pics/step1.png">]()
@@ -31,6 +32,15 @@ From there, we create the actual CNC file. *Ignore some of the parameters set in
 * Spindle Speed: Put this at 10000, because the 3018 is a cheaper machine, the speed isn't exact. Trust that it's very fast and that it works for this process. 
 
 [<img src= "./pics/step2.png">]()
+
+Finally, on the same panel, scroll down, and you'll see some options
+* End Move Z: I set this at 10 cm, which gives enough room for me to access the spindle, without setting the bounds too high for the CNC machine to trip it's limits.
+* End move XY: I set this to 0,0 so I can access the spindle to change the blade to a drill and vice versa. This is another measure to make sure the machine is oriented correctly.
+Generate the CNC job and you have you routing file all done!
+[<img src= "./pics/step3.png">]()
+
+##Creating the Drill Files
+
 
 
 
