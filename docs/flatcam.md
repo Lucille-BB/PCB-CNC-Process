@@ -40,7 +40,14 @@ Generate the CNC job and you have you routing file all done!
 [<img src= "./pics/step3.png">]()
 
 ## Creating the Drill Files
+First, open your filename.TXT file, and choose the highlighted button below
 
+[<img src= "./pics/drill.png">]()
+Similar to Isolation Routing, here are some options on this side panel, and the important ones are highlighted and explained
+* Tool Order: Pick Forward or Reverse tool order to make tool changes predictable. You'll be able to see in Candle what the machine is "expecting" to drill next so it's easy to keep track of.
+* Cut Z: In order to ensure that your board isn't only halfway cut through, choose around 1.7 to 2mm deep cuts.
+* Travel Z: Same as before, aroun d 2mm to 5mm above the board
+* Feedrate Z: The endmill/drill bits are able to handle a lot more strain, so 300mm/min has 
 [<img src= "./pics/drill1.png">]()
 
 [<img src= "./pics/drill2.png">]()
