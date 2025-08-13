@@ -42,6 +42,13 @@ Generate the CNC job and you have you routing file all done!
 ##Creating the Drill Files
 
 
+## Process
+* [Altium](./altium.md)
+* [FlatCam](./flatcam.md)
+* [Candle](./grbl_candle.md)
+* [Outside Resources](./resourcesandlinks.md)
+
+
 
 
 
