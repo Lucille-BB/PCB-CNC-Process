@@ -33,3 +33,10 @@ To move from Altium to FlatCAM, you need to export your board. To do so, go to F
 
 [<img src= "./pics/convertgrbl.png">]()
 
+
+##Process
+* [Altium](./altium.md)
+* [FlatCam](./flatcam.md)
+* [Candle](./grbl_candle.md)
+* [Outside Resources](./resourcesandlinks.md)
+
