@@ -14,6 +14,6 @@ Moreover, I will be providing some of the errors I made in this process to avoid
 ## Process
 * [Altium](./altium.md)
 * [FlatCam](./flatcam.md)
-* [Candle](./Grbl_candle.md)
+* [Candle](./grbl_candle.md)
 * [Outside Resources](./resourcesandlinks.md)
 
