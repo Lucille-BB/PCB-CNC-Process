@@ -39,8 +39,11 @@ Finally, on the same panel, scroll down, and you'll see some options
 Generate the CNC job and you have you routing file all done!
 [<img src= "./pics/step3.png">]()
 
-##Creating the Drill Files
+## Creating the Drill Files
 
+[<img src= "./pics/drill1.png">]()
+
+[<img src= "./pics/drill2.png">]()
 
 ## Process
 * [Altium](./altium.md)
