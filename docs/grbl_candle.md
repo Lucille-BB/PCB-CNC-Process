@@ -17,4 +17,4 @@ Before you begin, watch [this video](https://www.youtube.com/watch?v=u4Mcjz7IP10
 
 ### Setting up
 
-
+1. Tape down your copper
