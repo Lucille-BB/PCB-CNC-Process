@@ -11,6 +11,8 @@ If you need to change your x-y axis, select all of your files, then choose Optio
 
 [<img src= "./pics/offset.png">]()
 
+
+
 ## Creating the Routing files
 Go to Copper Signal 1 (or at least the file with your main traces) and click on Isolation Routing
 
@@ -39,17 +41,30 @@ Finally, on the same panel, scroll down, and you'll see some options
 Generate the CNC job and you have you routing file all done!
 [<img src= "./pics/step3.png">]()
 
+> [!TIP]
+> Come up with a naming system! I made so many different versions of my FlatCam routing files, so come up with a naming system for each. If I changed something fundamentally different in Altium, and went back to FlatCam, I changed the letter from A to B, B to C, etc. If I was changing something small, like the depth of a cut, I'd name them A01, A02, etc. 
+
 ## Creating the Drill Files
 First, open your filename.TXT file, and choose the highlighted button below
 
 [<img src= "./pics/drill.png">]()
+
 Similar to Isolation Routing, here are some options on this side panel, and the important ones are highlighted and explained
 * Tool Order: Pick Forward or Reverse tool order to make tool changes predictable. You'll be able to see in Candle what the machine is "expecting" to drill next so it's easy to keep track of.
 * Cut Z: In order to ensure that your board isn't only halfway cut through, choose around 1.7 to 2mm deep cuts.
 * Travel Z: Same as before, aroun d 2mm to 5mm above the board
-* Feedrate Z: The endmill/drill bits are able to handle a lot more strain, so 300mm/min has 
+* Feedrate Z: The endmill/drill bits are able to handle a lot more strain, so 300mm/min has been fine in the past
+* Spindle Speed: Set this to 10000, same as before
+  
 [<img src= "./pics/drill1.png">]()
 
+**Ignore the settings I have on this file, it's an old one**
+* Tool Change Button: Make sure to click on that button so the machine knows to stop before cutting different sized holes
+* Tool Change Z: Set this to 10 - 15 cm, so you can easily unscrew and change the bit on the spindle
+* End Move Z: Set this where it makes sense. If you need to endmill and cut out a whole piece of copper, it may be a good idea to set this higher to change your bit. Otherwise, it doesn't matter so I set it lower than Tool Change Z.
+* End Move X,Y: Set this to 0,0 to make changing the bit easier
+* **Preprocessor**: Some tutorials advise using a different preprocessor, or people make their own. It depends on what you need as the user.
+  
 [<img src= "./pics/drill2.png">]()
 
 ## Process
